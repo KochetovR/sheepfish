@@ -1,0 +1,27 @@
+.table {
+    margin: 10px 0;
+}
+
+a {
+    color: inherit;
+}
+
+tr {
+    transition: all 0.3s;
+}
+tr:hover {
+    transform: scale(1.01);
+    cursor: pointer;
+}
+
+th {
+  background-color: #ff7a45 !important;
+}
+
+tr:nth-child(2n) {
+    background-color: #f0f0f0;
+}
+
+tr:nth-child(2n +1 ) {
+    background-color: #fff;
+}

@@ -1,0 +1,53 @@
+.form {
+  max-width: 800px;
+  margin: 10px auto 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.titleForm {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.formField {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 14px;
+}
+  
+.formField label {
+  margin-bottom: 5px;
+}
+
+.formField input,
+.formField select {
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.formField input:focus,
+.formField select:focus {
+  outline: none;
+  border-color: #0077ff;
+}
+
+.errorMessage {
+  color: #ff0000;
+  font-size: 14px;
+  margin-top: 4px;
+  margin-bottom: 1rem;
+}
+
+.buttonsWrapper {
+  justify-content: flex-end;
+}
+
+.cancelButton {
+  margin-right: 10px;
+}

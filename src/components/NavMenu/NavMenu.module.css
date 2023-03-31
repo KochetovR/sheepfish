@@ -1,0 +1,23 @@
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    height: 100%;
+}
+.menuList {
+    display: flex;
+    margin: 0;
+    list-style: none;
+}
+.menuItem {
+    display: flex;
+    margin: auto;
+}
+.menuILink {
+    display: flex;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.menuItem:not(:last-child) {
+    margin-right: 30px;
+}

@@ -1,0 +1,26 @@
+.wrapper {
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.buttonsWrapper {
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.spiner {
+    display: flex;
+    justify-content: center;
+    margin-top: 30vh;
+}
+div>img {
+    max-height: 550px;
+    object-fit: contain;
+}
+
+@media only screen and (min-width: 576px) {
+    .hidden {
+      display: none;
+    }
+}
+

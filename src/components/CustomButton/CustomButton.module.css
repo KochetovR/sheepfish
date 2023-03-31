@@ -1,0 +1,14 @@
+@media only screen and (max-width: 575px) {
+    .buttonCol:not(:last-child) {
+      margin-bottom: 10px;
+    }
+}
+.green {
+    color: #fff;
+    background-color: #389e0d;
+}
+
+button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
